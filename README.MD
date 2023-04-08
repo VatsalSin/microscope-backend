@@ -36,4 +36,6 @@ Following assumptions were taken while solving the problem:
 - The starting point won't be marked as visited initially, only if we visit it again it will be marked as visited and other operation will happen
 - Machine (in this case backend) is source of truth, if miscofiguration happens at any place (only frontend in this case) will sync with backend.
 
-## Class Diagram
+## Reference Diagram
+![Event Loop FSM](https://user-images.githubusercontent.com/33460761/230724043-937eb5ac-e8a4-4673-b05b-091a5f521786.png)
+![Class Interaction Very High Level](https://user-images.githubusercontent.com/33460761/230724047-33156fb2-2d13-4509-bc07-060c1fd225e4.jpg)
